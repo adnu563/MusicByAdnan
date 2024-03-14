@@ -21,12 +21,6 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 200))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-# Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = int(getenv("SPOTIFY_CLIENT_ID" None))
-
-# Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_SECRET = int(getenv("SPOTIFY_CLIENT_SECRET" None))
-
 # Get this value from @AdnanXMusicBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5041639607))
 
